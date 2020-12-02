@@ -1,7 +1,6 @@
 # Copyright © 2020 Cezar Popoveniuc
 # Free to use for any purpose
 # Custom software, not in association with Adservio in any way shape or form
-from time import sleep
 import PySimpleGUI as GUI
 import requests
 from playsound import playsound
@@ -148,7 +147,6 @@ def main():
                 incorrect_credentials_window()
             else:
                 run_app(sesiune)
-                break
     window.close()
 if __name__ == "__main__":
     main()
